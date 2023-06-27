@@ -1,20 +1,20 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "../styles/Footer.css";
 
 function Footer() {
+    const date = new Date().getFullYear();
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <a href="https://www.instagram.com/abhi.yadav1654/"><InstagramIcon /></a>
+        <a href="https://www.facebook.com/profile.php?id=100076553587468"><FacebookIcon /></a>
+        <a href="https://linkedin.com/in/abhishekyadav123/"><LinkedInIcon /></a>
       </div>
-      <p> @copyright 2023</p>
+      <p> @copyright {date}</p>
     </div>
   );
 }

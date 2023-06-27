@@ -1,3 +1,5 @@
+import Proj1 from "../assets/Proj1.png";
+import Proj2 from "../assets/Proj2.jpeg"
 export const ProjectList = [
     {
       name: "TodoList",
