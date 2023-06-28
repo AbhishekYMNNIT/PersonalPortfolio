@@ -23,7 +23,7 @@ For codebase use the package manager [npm](https://www.npmjs.com/) to install [P
 ```bash
 git clone https://github.com/ShrishRajGupta/dayNews.git
 npm install
-nodemon app.js
+npm start
 ```
 
 ## Maintainers 👨‍💻
