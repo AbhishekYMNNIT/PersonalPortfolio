@@ -1,7 +1,7 @@
 # PersonalPortfolio
 
 ## Description
-This take will 
+A personal portfolio which gives a breif description about my skills, Projects and academics. 
 
 
 <!-- ## Screenshot
